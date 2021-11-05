@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  login: 'https://prod.in/api/login'
+  login: 'https://reqres.in/api/login'
 };
