@@ -9,6 +9,7 @@ import {ComponentsModule} from "./components/components.module";
 import {GuardsModule} from "./guards/guards.module";
 import {InterceptorsModule} from "./interceptors/interceptors.module";
 import {ServicesModule} from "./services/services.module";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {ServicesModule} from "./services/services.module";
     InterceptorsModule,
     FormsModule,
     ServicesModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

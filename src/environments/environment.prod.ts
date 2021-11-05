@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  login: 'https://prod.in/api/login'
 };
